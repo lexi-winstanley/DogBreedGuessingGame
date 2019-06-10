@@ -66,11 +66,11 @@ var imageContent = document.getElementById('imageHolder');
 imageContent.innerHTML = currentImage;
 
 function updateDisplay() {
-    winsText.textContent = 'Wins: ' + wins;
-    lossesText.textContent = 'Losses: ' + losses;
-    remainingLettersText.textContent = 'Remaining Letters in Word: ' + remainingLetters;
-    guessesLeftText.textContent = 'Incorrect Guesses Remaining: ' + guessesLeft;
-    lettersGuessedText.textContent = 'Incorrect Letters Guessed: ' + lettersGuessed.join(", "); 
+    winsText.textContent = wins;
+    lossesText.textContent = losses;
+    remainingLettersText.textContent = remainingLetters;
+    guessesLeftText.textContent = guessesLeft;
+    lettersGuessedText.textContent = lettersGuessed.join(", "); 
     blankSpacesText.textContent = blanksArray.join(" "); 
 };
 

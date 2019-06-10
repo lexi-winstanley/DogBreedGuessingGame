@@ -5,17 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Dog Breed Guessing Game</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Shadows+Into+Light+Two&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <p id="blankSpaces"></p>
-    <p id="winsNumber"></p>
-    <p id="lossesNumber"></p>
-    <p id="numberLettersRemaining"></p>
-    <p id="remainingGuesses"></p>
-    <p id="lettersUserGuessed"></p>
-    <div id='imageHolder'></div>
+    <header>
+        <h1>Dog Breed Guessing Game</h1>
+    </header>
+    <div class="pageContent">
+        <div class="gameContainer">
+            <div id='imageHolder'></div>
+            <div id='gameInfo'>
+                <div class="centeringHolder">
+                    <p id="blankSpaces"></p>
+                    <div class="gameDisplay">
+                        <p>Wins: <span id="winsNumber"></span></p>
+                        <p>Losses: <span id="lossesNumber"></span></p>
+                        <p>Remaining Letters in Word: <span id="numberLettersRemaining"></span></p>
+                        <p>Incorrect Guesses Remaining: <span id="remainingGuesses"></span></p>
+                        <p id="guessesHolder">Incorrect Letters Guessed: <span id="lettersUserGuessed"></span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>Created by</p>
+        <p>Lexi Winstanley June 2019</p>
+    </footer>
+    
     <script type="text/javascript" src="assets/javascript/game.js"></script>
 </body>
 </html>
