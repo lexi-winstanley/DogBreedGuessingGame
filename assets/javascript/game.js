@@ -95,9 +95,7 @@ function selectNewWord() {
     blanksArray = [];
     randomIndex = Math.trunc(Math.random() * possibleWords.length);
     currentWord = possibleWords[randomIndex];
-    console.log(currentWord); 
     remainingLetters = currentWord.length;
-    console.log(currentWord.length);
     for (i = 0; i < currentWord.length; i++) {
         blanksArray[i] = "_";
     }  
