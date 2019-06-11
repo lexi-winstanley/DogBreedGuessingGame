@@ -105,7 +105,7 @@ function removeSpaces() {
     if (currentWord.includes(' ')) {
         for (j = 0; j < currentWord.length; j++) {
             if (currentWord[j] === ' ') {
-                blanksArray[j] = ' + ';
+                blanksArray[j] = '  ';
                 remainingLetters--;
             } 
         }
