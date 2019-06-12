@@ -76,6 +76,7 @@ var remainingLettersText = document.getElementById('numberLettersRemaining');
 var guessesLeftText = document.getElementById('remainingGuesses');
 var lettersGuessedText = document.getElementById('lettersUserGuessed');
 var imageContent = document.getElementById('imageHolder');
+var directionsText = document.getElementById('directions')
 
 //set HTML content of image holder to variable currentImage
 imageContent.innerHTML = currentImage;
@@ -136,6 +137,7 @@ updateDisplay();
 
 //function runs on key press
 document.onkeyup = function(event) {
+    directionsText.textContent = "";
     //sets userGuess to the key pressed
     var userGuess = event.key;
     //converts userGuess to an ascii char code to be able to check if the key pressed was a lowercase alphabet character
