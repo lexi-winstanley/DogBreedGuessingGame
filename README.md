@@ -1,4 +1,4 @@
-# Word-Guess-Game
+# Dog Breed Guessing Game
 
 ## Description
 This is a JavaScript game in which the computer randomly chooses a word from the array of dog breeds, then displays underscores corresponding to the number of letters. The user then presses keys to guess letters that may be in the word. If they guess a letter that is in the word the appropriate blanks are changed to that letter and the number of letters remaining in the word decreases. If they guess a letter that is not in the word it is displayed on the page as an incorrect lettter guessed and the number of guesses remaining decreases. 
