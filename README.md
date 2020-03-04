@@ -11,7 +11,7 @@ This application randomly chooses a word from a predefined array of dog breeds, 
 This application is written with JavaScript. Arrays are used to hold possible words, letters guessed incorrectly and correctly, underscores corresponding to current word and words that have been used since page load. Loops, variables and event listeners (on key up) are used to carry out the logic to determine what the user is guessing and if that guess is correct or not as well as update the HTML elements. The user is allowed 10 incorrect guesses, if they do not guess all the letters in the word before they run out of guesses the number of losses is incremented and the game resets. If they guess the word correctly then the number of wins is incremented and the game resets. When the game resets the computer randomly chooses a new word from the remaining dog breeds in the array and the incorrect guesses are cleared and number of guesses remaining set back to 10. Each time the computer selects a new word the picture is updated to display a dog of the previous breed (i.e. if the previous word was "poodle" when the computer selects a new word the picture will update to be of a poodle). The computer will go through each word in the array once before beginning to repeat words. There are 20 unique dog breeds in the game.
 
 ## Role
-Sole developer responsible for design, code and creation of custom graphics. Functionality requirements provided by UW Coding Bootcamp/Trilogy Education Services.
+Sole developer responsible for design, code and creation of custom graphics.
 
 ## Technologies
 HTML
